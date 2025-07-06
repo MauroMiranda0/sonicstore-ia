@@ -1,0 +1,35 @@
+.catalogo-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.catalogo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.catalogo-portada {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.catalogo-info {
+  padding: 1rem;
+}
+
+.catalogo-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.catalogo-info p {
+  margin: 0;
+  color: #666;
+}
