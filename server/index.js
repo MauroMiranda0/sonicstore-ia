@@ -16,7 +16,7 @@ app.use(cors());
 // 5. Definimos una ruta de prueba
 // Cuando alguien haga una petición GET a la raíz ('/'), responderemos con un JSON.
 app.get('/', (req, res) => {
-    res.json({ message: '¡Hola desde el servidor!' });
+    res.json({ message: '¡Hola desde el servidor Primer Proyecto React-Node Mauro!' });
 });
 
 // 6. Ponemos el servidor a "escuchar" en el puerto definido
