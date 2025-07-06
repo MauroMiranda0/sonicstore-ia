@@ -1,0 +1,36 @@
+.catalogos-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filtros-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.filtro-grupo {
+  display: flex;
+  flex-direction: column;
+}
+
+.filtro-grupo label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.filtro-grupo select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.catalogos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}

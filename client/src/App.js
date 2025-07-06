@@ -6,7 +6,7 @@ import './App.css';
 
 // Componentes Reutilizables
 import Header from './components/header/Header';
-// import Footer from './components/footer/Footer'; // Futuro
+import Footer from './components/footer/Footer'; // Futuro
 // Páginas
 import HomePage from './pages/homepage/HomePage';
 import CatalogosPage from './pages/CatalogosPage';
@@ -34,7 +34,7 @@ function App() {
           <Route path="/nosotros" element={<NosotrosPage />} />
         </Routes>
       </main>
-      {/* <Footer /> */}
+      <Footer /> {/* 2. Añadir el Footer aquí */}
     </div>
   );
 }

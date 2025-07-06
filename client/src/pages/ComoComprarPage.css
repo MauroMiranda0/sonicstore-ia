@@ -1,0 +1,69 @@
+.como-comprar-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.como-comprar-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.proceso-pasos {
+  list-style: none;
+  padding-left: 0;
+}
+
+.paso {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.paso-numero {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 1.5rem;
+  line-height: 1;
+}
+
+.paso-contenido h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.paso-contenido p {
+  margin: 0;
+  color: #555;
+}
+
+.info-adicional {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.info-adicional h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info-iconos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-item p {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Iconos (usaremos texto/emojis por ahora) */
+.info-item span {
+    font-size: 2rem;
+}
